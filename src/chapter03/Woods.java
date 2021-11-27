@@ -14,6 +14,7 @@ public class Woods {
 			}
 		}
 		System.out.println(new Oak().getWater());
-		// water = 0;
+		// water = 0;  // local variable "water" defined in an enclosing scope must be 
+		 			 // final or effectively final
 	}
 }
