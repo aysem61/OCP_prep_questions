@@ -1,9 +1,9 @@
 package chapter04;
 
+// PAGE 148 Question 46
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
-// PAGE 148 Question 46
 
 public class Backup {
 	
