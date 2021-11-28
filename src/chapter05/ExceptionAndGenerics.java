@@ -1,6 +1,5 @@
 package chapter05;
 
-
 // PAGE 166 Question 24
 
 import java.util.Collection;
@@ -17,5 +16,4 @@ public class ExceptionAndGenerics {
 	public static void main(String[] args) {
 		throwOne(List.of(new ArithmeticException()));
 	}
-
 }
