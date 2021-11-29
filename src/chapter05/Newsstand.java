@@ -4,14 +4,18 @@ import java.util.TreeSet;
 
 // PAGE 164 Question 17
 
-class Magazine{
+class Magazine implements Comparable<Magazine>{
+//class Magazine implements Comparable{  // ==> with this class declaration, since Comparable uses Raw Type
+										 //		compareTo() method should be parameterized with "Object o"
+										 // 	it will otherwise give compilation error
+
 	
 	private String name;
 	
 	public Magazine(String name) {
 		this.name = name;
 	}
-	
+	@Override
 	public int compareTo(Magazine m) {
 		return name.compareTo(m.name);
 	}
