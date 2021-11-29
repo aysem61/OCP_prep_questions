@@ -1,10 +1,10 @@
 package chapter05;
 
+// PAGE 186 Question 79
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
-// PAGE 186 Question 79
 
 public class ConcurrentModExc {
 	
@@ -17,7 +17,4 @@ public class ConcurrentModExc {
 				set.remove(sheep);
 		System.out.println(set);
 	}
-
-	
-	
 }
