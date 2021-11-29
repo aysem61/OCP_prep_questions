@@ -9,12 +9,10 @@ class Magazine implements Comparable<Magazine>{
 										 //		compareTo() method should be parameterized with "Object o"
 										 // 	it will otherwise give compilation error
 
-	
 	private String name;
 	
-	public Magazine(String name) {
-		this.name = name;
-	}
+	public Magazine(String name) { this.name = name; }
+	
 	@Override
 	public int compareTo(Magazine m) {
 		return name.compareTo(m.name);
