@@ -1,8 +1,8 @@
 package chapter06;
 
-import java.util.function.IntUnaryOperator;
-
 // PAGE 197 Question 32
+
+import java.util.function.IntUnaryOperator;
 
 public class TicketTaker {
 	
@@ -14,11 +14,14 @@ public class TicketTaker {
 	 */
 
 	private static int AT_CAPACITY = 100;
+	
 //	public int takeTicket(int currentCount, IntUnaryOperator<Integer> counter) {  // *** DOES NOT COMPILE
 	public int takeTicket(int currentCount, IntUnaryOperator counter) {
 		return counter.applyAsInt(currentCount);
 	}
+	
 	public static void main(String...theater) {
+		
 		final TicketTaker bob = new TicketTaker();
 		final int oldCount = 50;
 		final int newCount = bob.takeTicket(oldCount, t->{
@@ -27,6 +30,7 @@ public class TicketTaker {
 			}
 			return t+1;
 		});
+		
 		System.out.println(newCount);
 	}
 }
