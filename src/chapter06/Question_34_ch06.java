@@ -1,10 +1,10 @@
 package chapter06;
 
+// PAGE 198 Question 34
+
 import java.util.Comparator;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
-
-// PAGE 198 Question 34
 
 public class Question_34_ch06 {
 
@@ -22,8 +22,5 @@ public class Question_34_ch06 {
 		Comparator<String> c = (String str, String t) -> 0;
 		System.out.println(c.compare("s", "t"));
 		
-		
 	}
-	
-	
 }
