@@ -15,5 +15,4 @@ public class Fetch {
 		new Fetch().play("Webby");
 		new Fetch().play("Georgette");
 	}
-
 }
