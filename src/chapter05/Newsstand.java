@@ -37,8 +37,8 @@ class Magazine implements Comparable<Magazine>{
 	  Since TreeSet does not look to see if the object can be compared until runtime,
 	  it throws "ClassCastException" when add() method is called    
 	 */
-	
 }
+
 
 public class Newsstand {
 	
@@ -48,6 +48,5 @@ public class Newsstand {
 		set.add(new Magazine("Newsweek"));
 		set.add(new Magazine("highlights"));
 		System.out.println(set.iterator().next());
-		
 	}
 }
