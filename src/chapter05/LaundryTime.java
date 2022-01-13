@@ -17,7 +17,6 @@ class Wash<T>{
 
 public class LaundryTime {
 	
-	
 	public static void main(String[] args) {
 		
 //		var wash = new Wash<String>();  		// compiles
