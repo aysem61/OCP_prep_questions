@@ -11,6 +11,7 @@ public class Market {
 	private static void checkPrices(List<Double> prices, Consumer scanner) {
 		
 		prices.forEach(scanner);
+		
 	}
 
 	public static void main(String[] args) {
@@ -21,6 +22,7 @@ public class Market {
 //															  //      Object class			
 			String result = p.equals(null) ? "Correct" : "Too high";
 			System.out.println(result);
+			
 		});
 		
 	}
