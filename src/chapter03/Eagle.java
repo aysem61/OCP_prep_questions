@@ -14,12 +14,14 @@ public class Eagle {
 			System.out.println("hop");
 		}
 	}
+	
 	static class FlemishRabbit extends Rabbit{
 		int a = 5;
 		void hop() {
 			System.out.println("HOP");
 		}
 	}
+	
 	public static void main(String[] args) {
 		Rabbit r1 = new FlemishRabbit();
 		FlemishRabbit r2 = new FlemishRabbit();
@@ -30,8 +32,6 @@ public class Eagle {
 		System.out.println(r1.a + " " + r2.a + " " + r3.a);
 //		ArrayList<String> a = new ArrayList<>(Arrays.asList("a", "b", "c"));  VALID
 //		ArrayList<String> b = new ArrayList<>(List.of("a", "b", "c"));		  VALID
-		
-		
 		
 	}
 }
