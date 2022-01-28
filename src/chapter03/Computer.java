@@ -6,6 +6,7 @@ package chapter03;
 // Object uses reference type's variables
 
 class Laptop extends Computer{
+	
 	int x = 3;
 	public void startup() {
 		System.out.print("laptop-");
@@ -13,10 +14,12 @@ class Laptop extends Computer{
 }
 
 public class Computer {
+	
 	int x = 6;
 	public void startup() {
 		System.out.print("computer-");
 	}
+	
 	public static void main(String[] args) {
 		Computer computer = new Laptop();
 		Laptop laptop = new Laptop();
@@ -24,7 +27,4 @@ public class Computer {
 		laptop.startup();
 		System.out.println(computer.x + " --- " + laptop.x);
 	}
-	
 }
-
-
